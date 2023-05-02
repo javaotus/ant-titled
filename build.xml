@@ -2,7 +2,7 @@
 <project name="ant-titled" default="clean">
 
     <property file="build.properties" />
-
+              
     <path id="classpath">
         <fileset dir="${lib.dir}" includes="${jar-file}" />
     </path>
@@ -36,5 +36,7 @@
         <echo>Apache Ant version is ${ant.version}! Welcome to ${sitename} !</echo>
         <java jar="${destination-jar}" fork="true" />
     </target>
+
+<target></target>
 
 </project>
